@@ -21,6 +21,12 @@
     asset_url('cormorant-garamond/Cormorant-Garamond-700.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Overpass';
+  font-weight: 700;
+  src: asset_url('overpass/overpass-bold.otf') format('opentype');
+}
+
 // Lato
 // =============================================================================
 

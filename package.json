@@ -10,6 +10,7 @@
     "npm": "^6.0.1",
     "retinajs": "^2.1.1",
     "svgxuse": "^1.2.4",
+    "wdm": "^0.1.4",
     "webfontloader": "^1.6.28",
     "zooming": "^2.0.0"
   }
