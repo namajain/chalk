@@ -1,8 +1,8 @@
 # Mandatory settings
 
 blog_theme: dark
-name: Naman
-paginate: 25
+name: "Naman's Journey"
+paginate: 10
 url: https://namajain.github.io
 
 
