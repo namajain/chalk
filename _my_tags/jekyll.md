@@ -1,4 +1,4 @@
 ---
 slug: jekyll
-name: Jekyll
+name: jekyll
 ---

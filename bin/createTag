@@ -10,7 +10,7 @@
 # Get current working directory
 
 # Define the post directory (where to create the file)
-JEKYLL_POSTS_DIR='C:\Users\n\OneDrive\Codes\Blog\namajain.github.io\_posts'
+JEKYLL_POSTS_DIR='C:\Users\n\OneDrive\Codes\Blog\namajain.github.io\_my_tags'
 
 # Post title
 TITLE=$1
@@ -28,7 +28,7 @@ DATE=`date +%Y-%m-%d`
 TYPE='.md'
 
 # File name structure
-FILENAME=${DATE}-${TITLE_STRIPPED}${TYPE}
+FILENAME=${TITLE_STRIPPED}
 
 
 # COMMANDS
@@ -42,9 +42,7 @@ touch ${FILENAME}
 
 # add YAML front matter
 echo -e "---
-layout: post
-title: ${TITLE}
-description: ${TITLE}
-tags: []
+slug: ${TITLE}
+name: ${TITLE}
 ---
 " >> ${FILENAME}
