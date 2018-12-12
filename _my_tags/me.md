@@ -1,4 +1,0 @@
----
-slug: me
-name: me
----

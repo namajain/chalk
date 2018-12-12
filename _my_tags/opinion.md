@@ -1,5 +1,0 @@
----
-slug: opinion
-name: opinion
----
-

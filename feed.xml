@@ -1,20 +1,90 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Naman's Journey</title>
+    <description></description>
+    <link>https://namajain.github.io</link>
+    <atom:link href="https://namajain.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>Applying union find for synonym resolution</title>
+        <description>Applying union find for synonym resolution</description>
+        <pubDate>Tue, 11 Dec 2018 00:00:00 +0530</pubDate>
+        <link>https://namajain.github.io/posts/applying-union-find-for-synonym-resolution</link>
+        <guid isPermaLink="true">https://namajain.github.io/posts/applying-union-find-for-synonym-resolution</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Books</title>
+        <description></description>
+        <pubDate>Wed, 21 Nov 2018 00:00:00 +0530</pubDate>
+        <link>https://namajain.github.io/posts/books</link>
+        <guid isPermaLink="true">https://namajain.github.io/posts/books</guid>
+      </item>
+    
+      <item>
+        <title>Stop waiting for the perfect moment</title>
+        <description>Have you ever thought of doing something creative but then didn't do it because of lack of time, money or resources ? Yes ? This piece is for you then</description>
+        <pubDate>Fri, 30 Jun 2017 00:40:00 +0530</pubDate>
+        <link>https://namajain.github.io/posts/stop-waiting-for-perfect-moment</link>
+        <guid isPermaLink="true">https://namajain.github.io/posts/stop-waiting-for-perfect-moment</guid>
+      </item>
+    
+      <item>
+        <title>Sayonara 2016</title>
+        <description>2016 was awesome! I feel 2017 is gonna be even better and hope the same for everyone, Happy New Year </description>
+        <pubDate>Mon, 02 Jan 2017 03:13:00 +0530</pubDate>
+        <link>https://namajain.github.io/posts/sayonara-2016</link>
+        <guid isPermaLink="true">https://namajain.github.io/posts/sayonara-2016</guid>
+      </item>
+    
+      <item>
+        <title>On hardwork and its influence</title>
+        <description>Two stories from my life supporting the title</description>
+        <pubDate>Fri, 25 Nov 2016 14:31:00 +0530</pubDate>
+        <link>https://namajain.github.io/posts/on-hardwork-and-its-influence</link>
+        <guid isPermaLink="true">https://namajain.github.io/posts/on-hardwork-and-its-influence</guid>
+      </item>
+    
+      <item>
+        <title>The Road Not Taken</title>
+        <description>Why people don't take the Road not Taken</description>
+        <pubDate>Sun, 13 Nov 2016 19:33:00 +0530</pubDate>
+        <link>https://namajain.github.io/posts/the-road-not-taken</link>
+        <guid isPermaLink="true">https://namajain.github.io/posts/the-road-not-taken</guid>
+      </item>
+    
+      <item>
+        <title>Loving Yourself</title>
+        <description>The what, why and how for self-love</description>
+        <pubDate>Sat, 01 Oct 2016 22:06:00 +0530</pubDate>
+        <link>https://namajain.github.io/posts/loving-yourself</link>
+        <guid isPermaLink="true">https://namajain.github.io/posts/loving-yourself</guid>
+      </item>
+    
+      <item>
+        <title>Be open and unbiased</title>
+        <description></description>
+        <pubDate>Mon, 26 Sep 2016 19:19:00 +0530</pubDate>
+        <link>https://namajain.github.io/posts/be-open-and-unbiased</link>
+        <guid isPermaLink="true">https://namajain.github.io/posts/be-open-and-unbiased</guid>
+      </item>
+    
+      <item>
+        <title>The worth of time</title>
+        <description></description>
+        <pubDate>Thu, 15 Sep 2016 12:28:00 +0530</pubDate>
+        <link>https://namajain.github.io/posts/the-worth-of-time</link>
+        <guid isPermaLink="true">https://namajain.github.io/posts/the-worth-of-time</guid>
+      </item>
+    
+      <item>
+        <title>To My Angel</title>
+        <description>A short poem I wrote for my mom</description>
+        <pubDate>Sun, 17 Jul 2016 12:20:00 +0530</pubDate>
+        <link>https://namajain.github.io/posts/to-my-angel</link>
+        <guid isPermaLink="true">https://namajain.github.io/posts/to-my-angel</guid>
+      </item>
+    
   </channel>
 </rss>
