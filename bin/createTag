@@ -28,7 +28,7 @@ DATE=`date +%Y-%m-%d`
 TYPE='.md'
 
 # File name structure
-FILENAME=${TITLE_STRIPPED}
+FILENAME=${TITLE_STRIPPED}${TYPE}
 
 
 # COMMANDS

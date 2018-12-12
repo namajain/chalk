@@ -1,0 +1,5 @@
+---
+slug: pics
+name: pics
+---
+
