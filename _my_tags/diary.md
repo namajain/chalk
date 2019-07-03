@@ -1,0 +1,5 @@
+---
+slug: diary
+name: diary
+---
+
